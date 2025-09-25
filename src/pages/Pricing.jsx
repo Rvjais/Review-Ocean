@@ -27,7 +27,7 @@ const Pricing = () => {
     },
     {
       name: 'Professional',
-      price: '$..',
+      price: '₹..',
       duration: '/month',
      
       description: 'Coming Soon',
@@ -47,9 +47,9 @@ const Pricing = () => {
     },
     {
       name: 'Enterprise',
-      price: '$..',
+      price: '₹..',
       duration: '/month',
-      originalPrice: '$129',
+    
       description: 'Coming Soon',
       features: [
         'Everything in Professional',
@@ -152,7 +152,7 @@ const Pricing = () => {
                     <span className="price-duration">{plan.duration}</span>
                   </div>
                   {plan.name === 'Starter' && (
-                    <p className="price-note">Then $19/month (Save 40%!)</p>
+                    <p className="price-note">Then ₹100/month </p>
                   )}
                   {plan.originalPrice && (
                     <p className="price-note">Save 40% - Limited time!</p>
