@@ -9,13 +9,13 @@ const { FiCheck, FiStar, FiZap, FiCrown, FiClock, FiGift } = FiIcons;
 const Pricing = () => {
   const plans = [
     {
-      name: 'Starter',
+      name: 'Lucky Customers',
       price: 'Free',
-      duration: '90 days',
+      duration: 'Lifetime',
       description: 'Perfect for small businesses getting started',
       features: [
         '3 platform integrations',
-        'Basic review monitoring',
+        'Interact Directly with reviews',
         'Email notifications',
         'Monthly analytics report',
         
@@ -127,13 +127,7 @@ const Pricing = () => {
               whileHover={{ scale: 1.02 }}
               className={`pricing-card ${plan.popular ? 'popular' : ''}`}
             >
-              {plan.popular && (
-                <div className="popular-badge">
-                  <div className="badge-text">
-                    Most Popular
-                  </div>
-                </div>
-              )}
+           
 
               <div className="card-header">
                 <div className={`plan-icon ${plan.gradient}`}>
