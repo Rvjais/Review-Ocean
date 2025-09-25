@@ -16,22 +16,14 @@ const About = () => {
 
   const team = [
     {
-      name: 'Sarah Johnson',
-      role: 'CEO & Founder',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80',
-      description: '10+ years in customer experience and business growth'
+      name: 'Ranveer Jaiswal',
+      role: 'Intern',
+      description: ''
     },
     {
-      name: 'Mike Chen',
-      role: 'CTO',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80',
-      description: 'Former Google engineer with expertise in data analytics'
-    },
-    {
-      name: 'Emily Rodriguez',
-      role: 'Head of Product',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80',
-      description: 'Product strategist focused on user experience design'
+      name: 'Rahul Kumar',
+      role: 'Intern',
+     
     }
   ];
 
@@ -129,14 +121,7 @@ const About = () => {
                 whileHover={{ scale: 1.02 }}
                 className="team-member"
               >
-                <div className="member-image-container">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="member-image"
-                  />
-                  <div className="image-overlay"></div>
-                </div>
+                
                 <h3 className="member-name">{member.name}</h3>
                 <p className="member-role">{member.role}</p>
                 <p className="member-description">{member.description}</p>

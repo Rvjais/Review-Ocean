@@ -14,11 +14,11 @@ const Pricing = () => {
       duration: '90 days',
       description: 'Perfect for small businesses getting started',
       features: [
-        'Up to 3 platform integrations',
+        '3 platform integrations',
         'Basic review monitoring',
         'Email notifications',
         'Monthly analytics report',
-        'Community support'
+        
       ],
       icon: FiStar,
       popular: false,
@@ -27,10 +27,10 @@ const Pricing = () => {
     },
     {
       name: 'Professional',
-      price: '$29',
+      price: '$..',
       duration: '/month',
-      originalPrice: '$49',
-      description: 'Most popular choice for growing businesses',
+     
+      description: 'Coming Soon',
       features: [
         'All 5+ platform integrations',
         'Real-time review monitoring',
@@ -47,19 +47,15 @@ const Pricing = () => {
     },
     {
       name: 'Enterprise',
-      price: '$79',
+      price: '$..',
       duration: '/month',
       originalPrice: '$129',
-      description: 'For businesses that need advanced features',
+      description: 'Coming Soon',
       features: [
         'Everything in Professional',
         'White-label solution',
-        'API access',
-        'Custom integrations',
-        'Dedicated account manager',
-        'Phone support',
-        'Advanced reporting',
-        'Multi-location management'
+        
+        
       ],
       icon: FiCrown,
       popular: false,
