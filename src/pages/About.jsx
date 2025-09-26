@@ -122,7 +122,7 @@ const About = () => {
                 className="team-member"
               >
                 
-                <a href="https://wa.me/6207325688"> <h3 className="member-name">  {member.name}</h3>  </a>
+                <a href="https://wa.me/+916207325688"> <h3 className="member-name">  {member.name}</h3>  </a>
                 <p className="member-role">{member.role}</p>
                
 
