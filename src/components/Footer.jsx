@@ -13,7 +13,8 @@ const Footer = () => {
         <div className="footer-links">
         <Link to="/privacy">Privacy Policy</Link>
         <Link to="/terms">Terms of Service</Link>
-        <Link to="/contact">Contact Us</Link>
+        <Link to="https://wa.me/9648165493" target="_blank" rel="noopener noreferrer">Contact Us</Link>
+        
         </div>
          <div className="social-icons">
           <a className='instaicon' href="https://twitter.com/yourcompany" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>

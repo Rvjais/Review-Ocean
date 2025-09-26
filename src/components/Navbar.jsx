@@ -65,7 +65,9 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
                 className="cta-button"
               >
-                Get Started Free
+               <a href="https://app.reviewoceans.info/#/login">
+                Log-In
+               </a>
               </motion.button>
             </div>
 
