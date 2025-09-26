@@ -100,7 +100,9 @@ const Navbar = () => {
                   </Link>
                 ))}
                 <button className="mobile-cta-button">
-                  Get Started Free
+                  <a href="https://app.reviewoceans.info/#/login">
+                    Log-In
+                  </a>
                 </button>
               </div>
             </motion.div>

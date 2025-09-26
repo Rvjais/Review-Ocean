@@ -17,12 +17,12 @@ const About = () => {
   const team = [
     {
       name: 'Ranveer Jaiswal',
-      role: 'Intern',
-      description: ''
+      role: 'Intern at Branding Pioneers',
+   
     },
     {
       name: 'Rahul Kumar',
-      role: 'Intern',
+      role: 'Intern at Branding Pioneers',
      
     }
   ];
@@ -122,9 +122,10 @@ const About = () => {
                 className="team-member"
               >
                 
-                <h3 className="member-name">{member.name}</h3>
+                <a href="https://wa.me/6207325688"> <h3 className="member-name">  {member.name}</h3>  </a>
                 <p className="member-role">{member.role}</p>
-                <p className="member-description">{member.description}</p>
+               
+
               </motion.div>
             ))}
           </div>
