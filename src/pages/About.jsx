@@ -8,8 +8,8 @@ const { FiUsers, FiTarget, FiAward, FiHeart } = FiIcons;
 
 const About = () => {
   const stats = [
-    { number: '10,000+', label: 'Happy Businesses', icon: FiUsers },
-    { number: '500K+', label: 'Reviews Managed', icon: FiTarget },
+    { number: '10+', label: 'Happy Businesses', icon: FiUsers },
+    { number: '50+', label: 'Reviews Managed', icon: FiTarget },
     { number: '98%', label: 'Customer Satisfaction', icon: FiAward },
     { number: '5+', label: 'Platform Integrations', icon: FiHeart },
   ];
