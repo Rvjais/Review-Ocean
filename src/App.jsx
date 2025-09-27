@@ -6,6 +6,7 @@ import About from './pages/About';
 import Pricing from './pages/Pricing';
 import Footer from './components/Footer';
 import Tutorial from './pages/Tutorial';
+import Pp from './pages/Pp';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/tutorial" element={<Tutorial />} />
+            <Route path="/policy" element={<Pp />} />
           </Routes>
         </div>
         <Footer />

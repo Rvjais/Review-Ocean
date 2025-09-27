@@ -64,7 +64,7 @@ const Tutorial = () => {
             ))}
           </div>
           <div className="screenShotHeading">
-            <h1>Screenshots of our PPlatform</h1>
+            <h1>Screenshots of our Platform</h1>
             <div className="line"></div>
             
             {screenshots.map(screenshot => (

@@ -17,6 +17,10 @@
   box-shadow: var(--shadow);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px
 }
 
 /* Glass panel inside container */
@@ -47,6 +51,7 @@
 /* Top block */
 .top{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 12px;

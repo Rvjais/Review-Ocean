@@ -17,7 +17,7 @@ const Footer = () => {
         
         </div>
          <div className="social-icons">
-          <a className='instaicon' href="https://twitter.com/yourcompany" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a className='instaicon' href="https://www.instagram.com/reviewoceans/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           <a className='fbicon' href="https://facebook.com/yourcompany" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
           <a className='lnicon' href="https://linkedin.com/company/yourcompany" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         </div>

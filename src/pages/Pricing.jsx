@@ -21,7 +21,7 @@ const Pricing = () => {
         
       ],
       icon: FiStar,
-      popular: false,
+      popular: true,
       cta: 'Start Free Trial',
       gradient: 'blue-cyan'
     },
@@ -41,8 +41,8 @@ const Pricing = () => {
         'Team collaboration tools'
       ],
       icon: FiZap,
-      popular: true,
-      cta: 'Get Started',
+      popular: false,
+      cta: '..',
       gradient: 'purple-pink'
     },
     {
@@ -59,7 +59,7 @@ const Pricing = () => {
       ],
       icon: FiCrown,
       popular: false,
-      cta: 'Contact Sales',
+      cta: '..',
       gradient: 'amber-orange'
     }
   ];
@@ -145,12 +145,8 @@ const Pricing = () => {
                     <span className="current-price">{plan.price}</span>
                     <span className="price-duration">{plan.duration}</span>
                   </div>
-                  {plan.name === 'Starter' && (
-                    <p className="price-note">Then ₹100/month </p>
-                  )}
-                  {plan.originalPrice && (
-                    <p className="price-note">Save 40% - Limited time!</p>
-                  )}
+                 
+                
                 </div>
 
                 <motion.button
