@@ -2,19 +2,21 @@
    Review-Ocean Privacy Policy
    =========================== */
 
-
+.body{
+    width: 100%;
+    padding: 50px;
+    
+}
 
 /* Container for the whole policy */
 .container {
-    height: 100%;
-    width: 100%;
+  
     margin: 0 auto;
-    padding: 40px 20px;
+  
     box-sizing: border-box;
   max-width: 850px;
   margin: 40px auto;
   
-  padding: 24px 32px;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);

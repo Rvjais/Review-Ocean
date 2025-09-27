@@ -4,7 +4,8 @@ import '../pages/pp.css'
 const Pp = () => {
   return (
     <>
-      <div className="container">
+    <div className="body">
+      <div className="container">      <div className="container">
         <h2>Privacy Policy for Review-Ocean</h2>
         <p><strong>Effective Date:</strong> January 1, 2025</p>
 
@@ -114,6 +115,9 @@ const Pp = () => {
           🌐 Website: www.review-ocean.com
         </div>
       </div>
+      </div>
+    </div>
+
     </>
   )
 }
