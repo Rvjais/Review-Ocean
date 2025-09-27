@@ -1,0 +1,98 @@
+/* ===========================
+   Review-Ocean Privacy Policy
+   =========================== */
+
+
+
+/* Container for the whole policy */
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  max-width: 850px;
+  margin: 40px auto;
+  
+  padding: 24px 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0369a1; /* brand blue */
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  color: #0369a1;
+  font-weight: 600;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Lists */
+ul {
+  margin: 10px 0 20px 24px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #444;
+}
+
+/* Contact Info Box */
+.contact-info {
+  margin-top: 20px;
+  padding: 16px 20px;
+  border-left: 4px solid #0369a1;
+  background: #f0f9ff;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
+  color: #0369a1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p, li {
+    font-size: 14px;
+  }
+}
