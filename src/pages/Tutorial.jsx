@@ -7,7 +7,7 @@ const Tutorial = () => {
       {
         id: 1,
         title: "How to get started with Review-Ocean",
-        src: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        src: "https://www.youtube.com/embed/s-6oZEyGXLc"
       },
       {
         id: 2,
@@ -23,20 +23,20 @@ const Tutorial = () => {
     const screenshots = [
       {
         id: 1,
-        src: "https://picsum.photos/200/300?random=1",
+        src:"../src/images/review.png",
         desc: "Description for Screenshot 1",
         alt: "Screenshot 1"
 
       },
       {
         id: 2,
-        src: "https://picsum.photos/200/300?random=2",
+        src: "../src/images/screenshot2.png",
         desc: "Description for Screenshot 2",
         alt: "Screenshot 2"
       },
       {
         id: 3,
-        src: "https://picsum.photos/200/300?random=3",
+        src: "../src/images/google2.png",
         desc: "Description for Screenshot 3",
         alt: "Screenshot 3"
       }

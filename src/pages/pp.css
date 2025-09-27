@@ -10,9 +10,7 @@
 
 /* Container for the whole policy */
 .container {
-  
     margin: 0 auto;
-  
     box-sizing: border-box;
   max-width: 850px;
   margin: 40px auto;
