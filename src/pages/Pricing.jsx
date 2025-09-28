@@ -139,9 +139,6 @@ const Pricing = () => {
                 
                 <div className="price-section">
                   <div className="price-container">
-                    {plan.originalPrice && (
-                      <span className="original-price">{plan.originalPrice}</span>
-                    )}
                     <span className="current-price">{plan.price}</span>
                     <span className="price-duration">{plan.duration}</span>
                   </div>
@@ -153,6 +150,7 @@ const Pricing = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className={`plan-cta ${plan.popular ? 'popular-cta' : ''}`}
+                  onClick={() => window.open("https://wa.me/9648165493?text=I%20want%20to%20try%20free%20trial%20of%20Review-ocean%20for%20my%20business", "_blank")}
                 >
                   {plan.cta}
                 </motion.button>

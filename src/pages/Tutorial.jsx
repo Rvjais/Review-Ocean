@@ -1,13 +1,13 @@
 import React from "react";
 import "../pages/Tutorial.css";
-import { id } from "date-fns/locale";
+
 
 const Tutorial = () => {
     const videos = [
       {
         id: 1,
         title: "How to get started with Review-Ocean",
-        src: "https://www.youtube.com/embed/s-6oZEyGXLc"
+        src: "https://www.youtube.com/embed/anDIgB1BHm8"
       },
       {
         id: 2,
