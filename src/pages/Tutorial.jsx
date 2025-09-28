@@ -9,16 +9,7 @@ const Tutorial = () => {
         title: "How to get started with Review-Ocean",
         src: "https://www.youtube.com/embed/anDIgB1BHm8"
       },
-      {
-        id: 2,
-        title: "Managing Reviews Effectively",
-        src: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-      },
-      {
-        id: 3,
-        title: "Analyzing Feedback with Analytics",
-        src: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-      }
+     
     ];
     const screenshots = [
       {
