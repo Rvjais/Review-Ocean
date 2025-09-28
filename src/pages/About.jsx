@@ -20,11 +20,7 @@ const About = () => {
       role: 'Intern at Branding Pioneers',
    
     },
-    {
-      name: 'Rahul Kumar',
-      role: 'Intern at Branding Pioneers',
-     
-    }
+    
   ];
 
   return (
