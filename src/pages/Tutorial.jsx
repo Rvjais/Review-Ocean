@@ -15,20 +15,20 @@ const Tutorial = () => {
       {
         id: 1,
         src:"../src/images/review.png",
-        desc: "Description for Screenshot 1",
+        desc: "Easy to use interface for managing reviews",
         alt: "Screenshot 1"
 
       },
       {
         id: 2,
         src: "../src/images/screenshot2.png",
-        desc: "Description for Screenshot 2",
+        desc: "Know all about what your customers are saying",
         alt: "Screenshot 2"
       },
       {
         id: 3,
         src: "../src/images/google2.png",
-        desc: "Description for Screenshot 3",
+        desc: "Give a chance to your business to grow",
         alt: "Screenshot 3"
       }
     ];

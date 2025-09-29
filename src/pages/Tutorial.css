@@ -71,8 +71,8 @@
 
 /* Videos grid */
 .videos{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  
+  
   gap: 18px;
 }
 
