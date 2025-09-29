@@ -94,7 +94,7 @@ const Home = () => {
                 whileTap={{ scale: 0.95 }}
                 className="cta-primary"
               >
-                <span>Start Free Trial</span>
+                <span> <a href="https://wa.me/9648165493?text=I%20want%20to%20try%20free%20trial%20of%20Review-ocean%20for%20my%20business">Start Free Trial</a></span>
                 <SafeIcon icon={FiArrowRight} className="cta-icon" />
               </motion.button>
               
